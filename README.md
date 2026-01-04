@@ -45,22 +45,30 @@ java Server
 ```
 
 open a new terminal:
+```bash
 javac Client.java
 java Client
+```
 
 When prompted, enter the server IP address.
-For local testing, use:
+For local testing, use
+```bash
 localhost
+```
 
-Demo Login Credentials
+Demo Login Credentials 
+```bash
 Username: user1   Password: pass1
 Username: user2   Password: pass2
 Username: user3   Password: pass3
+```
 
 Client Commands
+```bash
 msg <username>:<message>      Send a private message
 file <username>:<file_path>  Send a file to another user
 status                       View online users
 logout                       Disconnect from the server
+```
 
 msg user2: Hello!
